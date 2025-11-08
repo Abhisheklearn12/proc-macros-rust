@@ -1,0 +1,9 @@
+
+[package]
+name = "demo_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+my_macros = { path = "../my_macros" }
+tokio = { version = "1", features = ["rt", "macros", "rt-multi-thread", "time"] }

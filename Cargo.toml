@@ -1,0 +1,9 @@
+[package]
+name = "proc-macros-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = ["my_macros", "demo_app"]
